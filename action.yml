@@ -1,11 +1,37 @@
-name: 'Your name here'
-description: 'Provide a description here'
-author: 'Your name or organization here'
+name: 'AWS EC2 Describe Instance'
+description: 'Describes an EC2 instance'
+author: 'TrueMark'
 inputs:
-  milliseconds: # change this
+  instance-id:
     required: true
-    description: 'input description here'
-    default: 'default value if applicable'
+    description: 'Instance ID to describe'
+  region:
+    required: true
+    description: 'AWS region to use'
 runs:
   using: 'node16'
   main: 'dist/index.js'
+outputs:
+  instance-id:
+    description: 'The instance ID of the EC2 instance'
+  image-id:
+    description: 'The image ID of the EC2 instance'
+  instance-type:
+    description: 'The instance type of the EC2 instance'
+  private-dns-name:
+    description: 'The private DNS name of the EC2 instance'
+  private-ip-address:
+    description: 'The private IP address of the EC2 instance'
+  public-dns-name:
+    description: 'The public DNS name of the EC2 instance'
+  public-ip-address:
+    description: 'The public IP address of the EC2 instance'
+  state:
+    description: 'The state of the EC2 instance'
+  architecture:
+    description: 'The architecture of the EC2 instance'
+  instance-lifecycle:
+    description: 'The instance lifecycle of the EC2 instance'
+  json:
+    description: 'The full JSON response from the AWS SDK'
+
