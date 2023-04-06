@@ -15,7 +15,7 @@ outputs:
   instance-id:
     description: 'The instance ID of the EC2 instance'
   image-id:
-    description: 'The image ID of the EC2 instance'
+    description: 'The AMI used to launch the instance'
   instance-type:
     description: 'The instance type of the EC2 instance'
   private-dns-name:
