@@ -1,5 +1,5 @@
 name: 'AWS EC2 Describe Instance'
-description: 'Describes an EC2 instance'
+description: 'Describes an AWS EC2 instance'
 author: 'TrueMark'
 inputs:
   instance-id:
