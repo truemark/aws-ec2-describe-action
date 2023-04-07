@@ -4,6 +4,7 @@
 [![Latest Release](https://img.shields.io/github/v/release/truemark/aws-ec2-describe-instance-action)](https://github.com/truemark/aws-ec2-describe-instance-action/releases)
 ![GitHub closed issues](https://img.shields.io/github/issues-closed/truemark/aws-ec2-describe-instance-action)
 ![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed/truemark/aws-ec2-describe-instance-action)
+![build-test](https://github.com/truemark/aws-ec2-describe-instance-action/workflows/build-test/badge.svg)
 
 This GitHub action will describe an EC2 instance and output the details
 
