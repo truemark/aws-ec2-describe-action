@@ -13,7 +13,7 @@ This GitHub action will describe an EC2 instance and output the details
 ```yml
       - name: Describe arm64 Instance
         id: ec2-describe-arm64
-        uses: truemark/aws-ec2-describe-instance-action@v2
+        uses: truemark/aws-ec2-describe-instance-action@v3
         with:
           instance-id: ${{ steps.ec2-arm64.outputs.instance-id }}
           region: "us-east-2"
